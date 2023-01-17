@@ -1,10 +1,11 @@
 import React from 'react'
 import "./index.css"
+import {CgGym} from "react-icons/cg"
 const Navbar = () => {
   return (
     <div className='header'>
         <div className="logo">
-            <i class="fa-solid fa-music"></i>
+            <CgGym className='text-6xl text-white'/>
         </div>
         <div className="list">
             <ul>
