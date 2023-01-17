@@ -8,6 +8,7 @@ import Group2 from '../components/Group/Group2'
 import Statistics from '../components/Statistics'
 import BottomHero from '../components/BottomHero'
 import Form from '../components/Form'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <Statistics/>
         <BottomHero/>
         <Form/>
+        <Footer/>
     </div>
   )
 }
