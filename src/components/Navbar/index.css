@@ -36,3 +36,19 @@
     color: white;
     font-size: 25px;
 }
+.icons .bar{
+    color: white;
+    font-size: 29px;
+    display: none;
+}
+@media (max-width:990px){
+    .icons .bar{
+        display: block;
+    }
+    .list {
+        display: none;
+    }
+    .header>i{
+        display: none;
+    }
+}
